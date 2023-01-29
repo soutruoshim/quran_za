@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        android:title="share"
+        android:icon="@drawable/ic_copy"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_bookmark"
+        android:orderInCategory="100"
+        android:title="share"
+        android:icon="@drawable/ic_favorite_border"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_send"
+        android:orderInCategory="100"
+        android:title="share"
+        android:icon="@drawable/ic_send"
+        app:showAsAction="ifRoom" />
+</menu>

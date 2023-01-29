@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/preface"
+            android:icon="@drawable/information"
+            android:title="@string/preface" />-->
+        <item
+            android:id="@+id/vocabulary"
+            android:icon="@drawable/ic_vocaulary"
+            android:title="@string/action_vocabulary" />
+        <item
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/ic_bottom_sheet_favorited"
+            android:title="@string/bookmark" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/helps"
+            android:icon="@drawable/help_circle"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/like_about"
+            android:title="@string/about" />
+
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/shareapp"
+            android:icon="@drawable/ic_share"
+            android:title="@string/sharethisapp" />
+        <item
+            android:id="@+id/rateapp"
+            android:icon="@drawable/ic_star"
+            android:title="@string/ratethisapp" />
+    </group>
+
+</menu>

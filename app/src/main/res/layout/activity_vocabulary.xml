@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_rcycle"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.sout_rahim.quran_za.activitys.VocabularyActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ftextSearch">
+        <EditText
+            android:ems="13"
+            android:layout_gravity="center"
+            android:textColor="#545151"
+            android:id="@+id/searchText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/hintSearch"
+            android:inputType="text"
+            android:lines="1"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:background="@drawable/ln_style"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            />
+    </FrameLayout>
+    <View
+        android:background="#caa5a5a5"
+        android:layout_width = "fill_parent"
+        android:layout_height="0.7dip"
+        android:layout_centerVertical ="true"
+        android:id="@+id/viewdivid"
+        android:layout_below="@+id/ftextSearch" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvVocabulary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewdivid"
+        android:background="@color/back_rcycle" />
+</RelativeLayout>

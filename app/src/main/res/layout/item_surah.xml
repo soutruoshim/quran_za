@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/surah_name"
+                android:textColor="@color/surahN"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ayahN"
+                android:textColor="@color/ayahN"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/surah_name"
+                android:layout_marginRight="6dp"
+                android:paddingTop="5dp"
+                android:text="ayahN"
+                android:layout_alignParentRight="true"
+                android:gravity="right|end"
+                android:layout_marginLeft="6dp"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:id="@+id/surahType"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_marginLeft="6dp"
+                android:textSize="22sp"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/surahID"
+            android:gravity="right"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:paddingLeft="12dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+</LinearLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/surah_name"
+        android:textColor="@color/surahN"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/surahType"
+        android:layout_below="@id/surah_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ayahN"
+        android:textColor="@color/ayahN"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+-->
+
+    <!---->
+    <!-- android:background="@drawable/surahtext_style"-->
+
+   <!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:paddingLeft="10dp"
+android:paddingRight="10dp"
+android:paddingTop="5dp"
+android:paddingBottom="5dp"
+android:clickable="true"
+android:background="?android:attr/selectableItemBackground"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/surahID"
+        android:layout_gravity="center_horizontal|center_vertical"
+        />
+
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/surah_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:gravity="right"
+    android:padding="9dp"
+    android:singleLine="true"
+    android:lines="1"
+    android:textSize="16sp"
+    />
+
+</LinearLayout>-->

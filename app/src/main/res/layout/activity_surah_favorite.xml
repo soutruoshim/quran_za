@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_rcycle"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sout_rahim.quran_za.activitys.MainActivity">
+    <RelativeLayout
+        android:id="@+id/ftextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back_rcycle"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textDirection="rtl"
+                android:spinnerMode="dropdown"
+                android:text="آية"
+                android:popupBackground="@color/back_rcycle"
+                android:textSize="13sp"
+                android:background="@drawable/spinner_bg"
+                />
+            <!-- android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"-->
+            <TextView
+                android:id="@+id/surahName1"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Surah"
+                android:textColor="@color/surahN"
+                android:background="@drawable/spinner_border"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#caa5a5a5"
+        android:layout_width = "fill_parent"
+        android:layout_height="0.7dip"
+        android:layout_centerVertical ="true"
+        android:id="@+id/viewdivid"
+        android:layout_below="@+id/ftextSearch" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ayahRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/viewdivid"
+        android:background="@color/back_rcycle"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

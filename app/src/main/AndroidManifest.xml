@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activitys.Splashscreen"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.Translate_Activity"
+            android:label="@string/ctivity_translate"
+            android:parentActivityName=".activitys.SearchResultsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.SearchResultsActivity" />
+        </activity>
+        <activity
+            android:name=".activitys.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activitys.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activitys.AboutActivity"
+            android:label="@string/action_about"
+            android:parentActivityName=".activitys.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activitys.SurahActivity"
+            android:label="@string/surah"
+            android:parentActivityName=".activitys.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activitys.SearchResultsActivity"
+            android:parentActivityName=".activitys.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activitys.FavoriteActivity"
+            android:label="@string/bookmark"
+            android:parentActivityName=".activitys.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activitys.VocabularyActivity"
+            android:label="@string/action_vocabulary"
+            android:parentActivityName=".activitys.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sout_rahim.quran_za.activitys.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

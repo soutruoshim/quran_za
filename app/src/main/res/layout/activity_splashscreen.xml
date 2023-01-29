@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@color/colorspls"
+    android:id="@+id/ln_ly"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="គួរអានខ្មែរ"
+        android:id="@+id/quran_text_kh"
+        android:layout_marginTop="35dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:text="Quran Khmer"
+        android:id="@+id/quran_text_en"
+        android:layout_below="@id/quran_text_kh"
+        />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imgLogo"
+        android:src="@mipmap/ic_launcher"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/quran_text_en"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/blue"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:text="ដកស្រង់ចេញពី"
+        android:layout_below="@id/imgLogo"
+        android:id="@+id/outputby"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/lnTranslate"
+        android:layout_below="@id/outputby"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="2dp"
+            android:text="គម្ពីរអាល់គួរអានខ្មែរប្រែសំរួលដោយ:"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:text="ហ្សាការីយ៉ាអាដាម"
+            android:id="@+id/translator"
+            />
+    </LinearLayout>
+    <!-- Developer-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2016-2023"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

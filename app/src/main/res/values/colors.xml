@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#a98000</color>
+    <!-- <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#805e00</color>
+    <color name="colorAccent">#805e00</color>
+    <color name="blue">#2196F3</color>
+    <color name="darkblue">#78909C</color>
+    <color name="teal">#00897b</color>
+
+    <color name="colorspls">#f6eccf</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="back_rcycle">#ffffe6</color>
+
+    <color name="ayahN">#999999</color>
+    <color name="surahN">#504d4d</color>
+
+    <color name="listview_pressed">#FFdddddd</color>
+    <color name="listview_focused">#FF7dbcd3</color>
+    <color name="listview_checked">#FFededed</color>
+
+    <color name="pinned_header_text">#FF3c3c3c</color>
+
+    <!--<color name="rainbow_red">#bf0c43</color>
+    <color name="rainbow_yellow">#f9ba15</color>
+    <color name="rainbow_green">#8eac00</color>
+    <color name="rainbow_blue">#127a97</color>
+    <color name="rainbow_purple">#452b72</color>-->
+
+    <color name="rainbow_red">#900932</color>
+    <color name="rainbow_yellow">#c79005</color>
+    <color name="rainbow_green">#6a8000</color>
+    <color name="rainbow_blue"> #0d5c72</color>
+    <color name="rainbow_purple">#432a6f</color>
+
+    <integer-array name="rainbow">
+        <item>@color/rainbow_red</item>
+        <item>@color/rainbow_yellow</item>
+        <item>@color/rainbow_green</item>
+        <item>@color/rainbow_blue</item>
+        <item>@color/rainbow_purple</item>
+    </integer-array>
+
+</resources>

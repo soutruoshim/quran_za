@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Quran Khmer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">កំណត់</string>
+    <string name="action_about">អំពី</string>
+    <string name="title_activity_settings">កំណត់</string>
+
+    <string name="ctivity_translate">បកប្រែ</string>
+    <string name="hintSearch">ស្វែងរក</string>
+    <string name="hintSearchS">ស្វែងរកជំពូក</string>
+    <string name="hintSearchA">ស្វែងរកពាក្យក្នុងអាយ៉ាត់</string>
+    <string name="send_to">Send to</string>
+    <string name="search">ស្វែងរក</string>
+    <string name="surah">ជំពូក</string>
+
+    <!-- new version -->
+    <string name="settings">ការកំណត់</string>
+    <string name="help">ជំនួយ និង ផ្តល់មតិ </string>
+    <string name="about">អំពី </string>
+    <string name="feedback">ការផ្តល់មតិ</string>
+    <string name="smsstring">អេស អិម អេស</string>
+    <string name="emailstring">អីមែល </string>
+    <string name="youromment">មតិរបស់អ្នក</string>
+    <string name="submitfeedback">បញ្ជូនសារ</string>
+    <string name="ratethisapp">វាយតំលៃកម្មវិធី</string>
+    <string name="sharethisapp">ចែកចាយកម្មវិធី</string>
+    <string name="more_app">កម្មវិធីច្រើនទៀត</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">ធម្មតា</string>
+    <string name="action_vocabulary">សន្ទានុក្រម</string >
+    <string name="Language">ភាសា</string>
+    <string name="copy">ចម្លង</string>
+    <string name="send">ផ្ញើ</string>
+    <string name="cancel">ចាក់ចេញ</string>
+    <string name="add_bookmark">ដាក់ក្នុងចំណាំ</string>
+    <string name="remove_bookmark">ដកចេញពីចំណាំ</string>
+    <string name="bookmark">ចំណាំ</string>
+
+    <string-array name="pref_language_titles">
+        <item>អង់គ្លេស</item>
+        <item>ខ្មែរ</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>en</item>
+        <item>kh</item>
+    </string-array>
+
+</resources>

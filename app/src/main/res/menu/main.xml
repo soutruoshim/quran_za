@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <!-- <item android:id="@+id/action_vocabulary"
+        android:title="@string/action_vocabulary"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="never" />-->
+    <item android:id="@+id/action_more"
+        android:orderInCategory="100"
+        android:title="@string/more_app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+</menu>
